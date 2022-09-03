@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./index.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>독도애락ㅣ메인</title>
 </head>
 <body>
+    <div class="ld"></div>
     <div class="topbar">
         <div class="topbar_group_1">
             <img class="topbar_titleimg" src="./img/독도icon.svg" width="100px">
@@ -35,5 +37,10 @@
             <div class="m_2_box_subtitle flight">어쩌다 독도에 갇혀버렸다!<br>숨겨진 힌트를 찾아 독도를 탈출해라!</div>
         </div>
     </div>
+    <script>
+        $(window).load(function(){
+            $('.ld').fadeOut();
+        });
+    </script>
 </body>
 </html>

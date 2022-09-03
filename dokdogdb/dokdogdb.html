@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="./dokdogdb.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>독도애락ㅣ독도골든벨</title>
 </head>
 <body>
+    <div class="ld"></div>
     <div class="topbar">
         <div class="topbar_group_1">
             <img class="topbar_titleimg" src="../img/독도icon.svg" width="100px">
@@ -22,5 +24,10 @@
             <div class="fregular">독도에 관한 문제를 풀고 골든벨을 울려보세요!</div>
         </div>
     </div>
+    <script>
+        $(window).load(function(){
+            $('.ld').fadeOut();
+        });
+    </script>
 </body>
 </html>

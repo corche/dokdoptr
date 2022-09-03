@@ -1,7 +1,7 @@
-body{margin: 0; font-family: fregular;}
+body{margin: 0; font-family: fregular; }
 a{color: white; text-decoration: none;}
 
-.topbar{width: 100%; position: fixed; background-color: rgba(255,255,255,0.4); border-bottom: 1px solid white; backdrop-filter: blur(10px); z-index: 999;}
+.topbar{width: 100%; position: fixed; background-color: rgba(255,255,255,0.4); border-bottom: 1px solid white; backdrop-filter: blur(10px); z-index: 998;}
 .topbar_group_1{display: flex;}
 .topbar_title{margin-right: auto; font-size: 2em; margin-top: 17px;}
 .topbar_titleimg{margin-left: auto; padding: 10px;}
@@ -13,6 +13,7 @@ a{color: white; text-decoration: none;}
 .mh:hover{cursor: pointer;}
 
 .text{font-size: 2em; margin-left: 100px; margin-bottom: 30px; width: 400px; border-bottom: 1px solid black; margin-top: 50px;}
+.ld{width: 100vw; height: 100vh; position: absolute; z-index: 999; background-color: white;}
 
 .fwt{font-family: fwt;}
 .febold{font-family: febold;}
@@ -26,6 +27,11 @@ a{color: white; text-decoration: none;}
 @keyframes ani1{
     0%{background-size: 120%;}
     100%{background-size: 100%;}
+}
+
+@keyframes loadingani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 @font-face {
