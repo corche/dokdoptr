@@ -1,1 +1,24 @@
-.m_1{background: url(../img/banner_dgb.png) no-repeat; background-size: 100%; background-position: center;}
+.m_1{background: url(../img/banner_dgb.png) no-repeat; background-size: 100%;}
+
+.b_1{width: 1000px; margin-left: 50%; transform: translateX(-50%); margin-top: 300px;}
+.b_1_{margin-bottom: 100px;}
+.b_1_title{font-size: 2em;}
+.b_1_subtitle{font-size: 1.4em;}
+.b_1_line{background: linear-gradient(#FF65FF,#0070C0); width: 3px; height: 110px; margin-left: 10px; margin-right: 10px;}
+.b_1_img{width: 110px; margin-left: 20px; margin-right: 20px;}
+
+.b_2{font-size: 2em; margin-top: 400px;}
+.b_2_web{margin-left: 50%; transform: translateX(-50%); margin-top: 100px; width: 700px;}
+
+@media all and (min-width:1000px) {
+    .b_1_{display: flex;}
+}
+
+@media all and (max-width:1000px) {
+    .b_1{width: 450px;}
+    .b_1_title{font-size: 1.7em;}
+    .b_1_subtitle{font-size: 1.2em;}
+    
+    .b_2{font-size: 1.5em;}
+    .b_2_web{width: 400px;}
+}

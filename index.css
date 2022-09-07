@@ -1,8 +1,17 @@
-.m_1{background: url(./img/banner_m.png) no-repeat; background-size: 100%; background-position: center;}
+.m_1{background: url(./img/banner_m.png) no-repeat; background-size: 200%;}
 
-.m_2{overflow-x: scroll; display: flex; }
+.m_2{overflow-x: scroll;}
 .m_2_box{width: 370px; height: 170px; border-radius: 20px; color: white; margin: 0 auto; margin-bottom: 300px;}
 .m_2_box:hover > .m_2_box_line{border-bottom: 1px solid white; width: 200px; transition: 0.3s; margin-left: 30px;}
 .m_2_box_title{font-size: 1.8em; padding-top: 30px; margin-left: 30px;}
 .m_2_box_line{border-bottom: 1px solid rgba(0, 0, 0, 0); width: 0px; transition: 0.3s; margin-left: 10px;}
 .m_2_box_subtitle{font-size: 1.2em; padding-left: 30px; margin-top: 10px; padding-right: 30px; color: rgba(255,255,255,0.8);}
+
+@media all and (min-width:801px) {
+    .m_2{display: flex;}
+}
+
+@media all and (max-width:800px) {
+    .m_1{background-position: right;}
+    .m_2_box{margin-bottom: 100px;}
+}
