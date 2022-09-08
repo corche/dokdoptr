@@ -1,17 +1,82 @@
-.m_1{background: url(./img/banner_m.png) no-repeat; background-size: 200%;}
+body{margin: 0; font-family: fregular; }
+a{color: white; text-decoration: none;}
 
-.m_2{overflow-x: scroll;}
-.m_2_box{width: 370px; height: 170px; border-radius: 20px; color: white; margin: 0 auto; margin-bottom: 300px;}
-.m_2_box:hover > .m_2_box_line{border-bottom: 1px solid white; width: 200px; transition: 0.3s; margin-left: 30px;}
-.m_2_box_title{font-size: 1.8em; padding-top: 30px; margin-left: 30px;}
-.m_2_box_line{border-bottom: 1px solid rgba(0, 0, 0, 0); width: 0px; transition: 0.3s; margin-left: 10px;}
-.m_2_box_subtitle{font-size: 1.2em; padding-left: 30px; margin-top: 10px; padding-right: 30px; color: rgba(255,255,255,0.8);}
+.topbar{width: 100%; position: fixed; background-color: rgba(255,255,255,0.4); border-bottom: 1px solid white; backdrop-filter: blur(10px); z-index: 999; top: 0;}
+.topbar_group_1{display: flex;}
+.topbar_title{margin-right: auto; font-size: 2em; margin-top: 17px;}
+.topbar_titleimg{margin-left: auto; padding: 10px 5px 10px 0px;}
 
-@media all and (min-width:801px) {
-    .m_2{display: flex;}
+.i_1{width: 100vw; height: auto;}
+.i_1_img{position: absolute; z-index: -999; width: 100vw; top: 0;}
+.i_1_text{color: white; margin-top: calc(50% - 33vw); margin-right: 150px}
+.i_1_title{font-size: 4em;}
+.i_1_subtitle{font-size: 2em; opacity: 0.7;}
+
+@media all and (max-width:1000px) {
+    .i_1_text{margin-top: 220px; margin-right: 20px;}
+    .i_1{height: 500px;}
+    .i_1_img{height: 500px; width: auto; margin-left: calc(100vw - 1239.16px);}
 }
 
-@media all and (max-width:800px) {
-    .m_1{background-position: right;}
-    .m_2_box{margin-bottom: 100px;}
+.mh:hover{cursor: pointer;}
+
+.ld{width: 100vw; height: 100vh; position: fixed; z-index: 999; background-color: white;}
+
+.right{text-align: right;}
+.center{text-align: center;}
+
+.fwt{font-family: fwt;}
+.febold{font-family: febold;}
+.fbold{font-family: fbold;}
+.fmedium{font-family: fmedium;}
+.fregular{font-family: fregular;}
+.flight{font-family: flight;}
+.felight{font-family: felight;}
+.fthin{font-family: fthin;}
+
+@keyframes ani1{
+    0%{background-size: 120%;}
+    100%{background-size: 100%;}
+}
+
+@keyframes loadingani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@font-face {
+    font-family: fdt;
+    src: url(./font/Dokdo.ttf);
+}
+@font-face {
+    font-family: fwt;
+    src: url(./font//WandohopeB.ttf);
+}
+@font-face {
+    font-family: febold;
+    src: url(./font/SCDream7.otf);
+}
+@font-face {
+    font-family: fbold;
+    src: url(./font/SCDream6.otf);
+}
+@font-face {
+    font-family: fmedium;
+    src: url(./font/SCDream5.otf);
+}
+@font-face {
+    font-family: fregular;
+    src: url(./font/SCDream4.otf);
+}
+@font-face {
+    font-family: flight;
+    src: url(./font/SCDream3.otf);
+}
+@font-face {
+    font-family: felight;
+    src: url(./font/SCDream2.otf);
+}
+@font-face {
+    font-family: fthin;
+    src: url(./font/SCDream1.otf);
 }
