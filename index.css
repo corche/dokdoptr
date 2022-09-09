@@ -1,26 +1,32 @@
 body{margin: 0; font-family: fregular; }
 a{color: white; text-decoration: none;}
 
-.topbar{width: 100%; position: fixed; background-color: rgba(255,255,255,0.4); border-bottom: 1px solid white; backdrop-filter: blur(10px); z-index: 999; top: 0;}
+.topbar{width: 100%; position: fixed; background-color: rgba(255,255,255,0.4); border-bottom: 1px solid white; backdrop-filter: blur(10px); z-index: 998; top: 0;}
 .topbar_group_1{display: flex;}
 .topbar_title{margin-right: auto; font-size: 2em; margin-top: 17px;}
 .topbar_titleimg{margin-left: auto; padding: 10px 5px 10px 0px;}
 
 .i_1{width: 100vw; height: auto;}
 .i_1_img{position: absolute; z-index: -999; width: 100vw; top: 0;}
-.i_1_text{color: white; margin-top: calc(50% - 33vw); margin-right: 150px}
+.i_1_img__{position: absolute; z-index: -998; width: 100vw; top: 0; overflow-x: hidden;}
+.i_1_img_{width: 100vw; top: 0; opacity: 0.5;}
+.i_1_text{color: white; margin-top: calc(50% - 33vw); margin-right: 150px;}
 .i_1_title{font-size: 4em;}
-.i_1_subtitle{font-size: 2em; opacity: 0.7;}
+.i_1_subtitle{font-size: 2em; opacity: 0.9;}
+.i_margin_top{margin-top: calc(60% - 33vw);}
 
 @media all and (max-width:1000px) {
+    .i_1{height: 280px;}
     .i_1_text{margin-top: 220px; margin-right: 20px;}
-    .i_1{height: 500px;}
     .i_1_img{height: 500px; width: auto; margin-left: calc(100vw - 1239.16px);}
+    .i_1_img_{height: 500px; width: auto; margin-right: calc(100vw - 1239.16px);}
+    .i_1_text{font-size: 0.8em;}
+    .i_margin_top{margin-top: 170px;}
 }
 
 .mh:hover{cursor: pointer;}
 
-.ld{width: 100vw; height: 100vh; position: fixed; z-index: 999; background-color: white;}
+.ld{width: 100vw; height: 100vh; position: fixed; z-index: 999; background-color: white; top: 0;}
 
 .right{text-align: right;}
 .center{text-align: center;}
