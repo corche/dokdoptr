@@ -4,7 +4,7 @@
 
 .b_2{font-size: 1.8em; text-align: center;}
 .b_2__{width: 70vw; border-radius: 30px; overflow-x: hidden; margin-left: 50%; transform: translateX(-50%); margin-top: 50px; box-shadow: 0 0 30px rgba(0,0,0,0.06); margin-bottom: 30px;}
-.b_2_{width: 70vw;}
+.b_2_{width: 70vw; margin-top: 0px;}
 
 .b_bold{color: #0066ff; font-size: 1.3em;}
 
