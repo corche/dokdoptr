@@ -3,7 +3,8 @@
 .b_1_img{border-radius: 50%; width: 100px;}
 
 .b_2{font-size: 1.8em; text-align: center;}
-.b_2_{margin-left: 50%; transform: translateX(-50%); margin-top: 50px; margin-bottom: 30px; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,0.06); width: 600px;}
+.b_2__{width: 80vw; overflow-x: hidden; margin-left: 50%; transform: translateX(-50%); margin-top: 50px;}
+.b_2_{margin-top: 50px; margin-bottom: 30px; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,0.06); width: 80vw;}
 
 .b_bold{color: #0066ff; font-size: 1.3em;}
 
@@ -22,5 +23,5 @@
     
     .b_2{font-size: 1.6em; text-align: center;}
     .b_2__{width: 85vw; overflow-x: hidden; margin-left: 50%; transform: translateX(-50%);}
-    .b_2_{margin-top: 50px; margin-bottom: 30px; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,0.06); width: 90vw;}
+    .b_2_{margin-top: 50px; margin-bottom: 30px; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,0.06); width: 85vw;}
 }
