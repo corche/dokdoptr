@@ -20,12 +20,14 @@
     </div>
     <div class="i_1">
         <div class="i_1_img__">
-            <img class="i_1_img_" src="./img/bell.png">
+            <img class="i_1_img___" src="./img/bell.png">
         </div>
-        <img class="i_1_img" src="./img/banner_dgb.png">
+        <div class="i_1_img_">
+            <img class="i_1_img" src="./img/banner_dgb.png">
+        </div>
         <div class="i_1_text right">
-            <div class="i_1_title fmedium">독도 골든벨</div>
-            <div class="i_1_subtitle fregular">독도 골든벨에 오신걸 환영합니다!</div>
+            <div class="i_1_title fmedium"><span>독</span><span>도</span> <span>골</span><span>든</span><span>벨</span></div>
+            <div class="i_1_subtitle fregular"><span>독</span><span>도</span> <span>골</span><span>든</span><span>벨</span><span>에</span> <span>오</span><span>신</span><span>걸</span> <span>환</span><span>영</span><span>합</span><span>니</span><span>다</span><span>!</span></div>
         </div>
     </div>
     <div class="i_margin_top"></div>
@@ -67,6 +69,15 @@
         <iframe class="b_2_" src="https://docs.google.com/forms/d/e/1FAIpQLSfcJSAS7GzDvxQQqTbf1OgqlL3Y3UPc4NlH0LBJSD631Hdqhw/viewform?embedded=true" height="600" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
     </div>
     <script>
+        const introText = document.querySelectorAll("span");
+
+        window.onload = () => {
+        let timer = 100;
+        introText.forEach((item) => {
+            item.style.animation = `fade 600ms ${(timer += 100)}ms forwards`;
+        });
+        };
+
         $(window).load(function(){
             $('.ld').fadeOut();
         });

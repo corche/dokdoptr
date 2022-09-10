@@ -8,11 +8,21 @@
     <link rel="stylesheet" href="./dokdogdb.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>독도애락ㅣ독도방탈출</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/독도icon.svg">
 </head>
 <body>
     <div class="ld"></div>
     <h1>준비중</h1>
     <script>
+        const introText = document.querySelectorAll("span");
+
+        window.onload = () => {
+        let timer = 100;
+        introText.forEach((item) => {
+            item.style.animation = `fade 800ms ${(timer += 300)}ms forwards`;
+        });
+        };
+
         $(window).load(function(){
             $('.ld').fadeOut();
         });

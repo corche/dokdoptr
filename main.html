@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./main.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>독도애락ㅣ메인</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/독도icon.svg">
 </head>
 <body>
     <div class="ld"></div>
@@ -18,10 +19,12 @@
         </div>
     </div>
     <div class="i_1">
-        <img class="i_1_img" src="./img/banner_m.png">
+        <div class="i_1_img_">
+            <img class="i_1_img" src="./img/banner_m.png">
+        </div>
         <div class="i_1_text right">
-            <div class="i_1_title fmedium">독도애락</div>
-            <div class="i_1_subtitle fregular">OO중 독도 동아리</div>
+            <div class="i_1_title fmedium"><span>독</span><span>도</span><span>애</span><span>락</span></div>
+            <div class="i_1_subtitle fregular"><span>O</span><span>O</span><span>중</span> <span>독</span><span>도</span> <span>동</span><span>아</span><span>리</span></div>
         </div>
     </div>
     <div class="i_margin_top"></div>
@@ -39,6 +42,15 @@
         </div>
     </div>
     <script>
+        const introText = document.querySelectorAll("span");
+
+        window.onload = () => {
+        let timer = 100;
+        introText.forEach((item) => {
+            item.style.animation = `fade 600ms ${(timer += 100)}ms forwards`;
+        });
+        };
+
         $(window).load(function(){
             $('.ld').fadeOut();
         });
