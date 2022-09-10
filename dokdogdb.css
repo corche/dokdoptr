@@ -21,6 +21,6 @@
     .b_1_subtitle{font-size: 1em;}
     
     .b_2{font-size: 1.6em; text-align: center;}
-    .b_2__{width: 450px; overflow-x: hidden; margin-left: 50%; transform: translateX(-50%);}
+    .b_2__{width: 400px; overflow-x: hidden; margin-left: 50%; transform: translateX(-50%);}
     .b_2_{margin-top: 50px; margin-bottom: 30px; border-radius: 30px; box-shadow: 0 0 30px rgba(0,0,0,0.06); width: 400px;}
 }

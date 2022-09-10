@@ -10,7 +10,7 @@ span{opacity: 0;}
 .i_1{width: 100vw; height: auto;}
 .i_1_img_{position: absolute; z-index: -999; width: 100vw; height: calc(100vw - 61vw); top: 0; overflow: hidden;}
 .i_1_img{width: 100vw; top: 0; animation: i1img 4s ease-in-out 0s normal 1 both;}
-.i_1_img__{position: absolute; z-index: -998; width: 100vw; top: 0; overflow-x: hidden;}
+.i_1_img__{position: absolute; z-index: -998; width: 100vw; top: 0; overflow: hidden;}
 .i_1_img___{width: 100vw; top: 0; animation: i1img 4s ease-in-out 0s normal 1 both; opacity: 0.5;}
 .i_1_text{color: white; margin-top: calc(50% - 33vw); margin-right: 150px;}
 .i_1_title{font-size: 4em;}
@@ -22,7 +22,7 @@ span{opacity: 0;}
     .i_1_text{margin-top: 220px; margin-right: 20px;}
     .i_1_img{height: 500px; width: auto; margin-left: calc(100vw - 1239.16px);}
     .i_1_img_{height: 500px; overflow: hidden;}
-    .i_1_img__{height: 500px; overflow-x: hidden;;}
+    .i_1_img__{height: 500px; overflow: hidden;;}
     .i_1_img___{height: 500px; width: auto; margin-right: calc(100vw - 1239.16px);}
     .i_1_text{font-size: 0.8em;}
     .i_margin_top{margin-top: 170px;}
