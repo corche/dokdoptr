@@ -4,11 +4,11 @@
 .m_2_{width: 320px; height: 140px; border-radius: 20px; color: rgba(255,255,255,0.9); padding: 5px 0px 5px 20px; overflow-y: hidden; margin: 100px auto 0px auto;}
 .m_2_title{font-size: 1.7em; margin-top: 50px; transition: 0.5s;}
 .m_2_line{width: 30px; border-bottom: 2px solid rgba(255,255,255,0.9); opacity: 0; transition: 0.7s;}
-.m_2_subtitle{font-size: 1.2em; margin-top: 53px; transition: 0.9s;}
+.m_2_subtitle{font-size: 1.2em; margin-top: 60px; transition: 0.9s;}
 
 .m_2_:hover > .m_2_title{color: white; transition: 0.5s; margin-top: 18px;}
 .m_2_:hover > .m_2_line{width: 200px; opacity: 1; border-color: white; transition: 0.7s;}
-.m_2_:hover > .m_2_subtitle{color: white; margin-top: 5px; transition: 0.9s;}
+.m_2_:hover > .m_2_subtitle{color: white; margin-top: 10px; transition: 0.9s;}
 
 @media all and (min-width:1001px) {
     .m_2{display: flex;}
