@@ -1,4 +1,5 @@
-.b_1_{margin-bottom: 50px; margin-left: 50%; transform: translateX(-50%); width: 550px;}
+.b_1{width: 70vw; margin-left: 50%; transform: translateX(-50%);}
+.b_1_{margin-bottom: 50px; margin-left: 50%; transform: translateX(-50%); width: 600px;}
 .b_1_line{height: 100px; width: 10px; background: linear-gradient(#FF65FF, #0070C0);}
 .b_1_img{border-radius: 50%; width: 100px;}
 
@@ -15,7 +16,8 @@
 }
 
 @media all and (max-width:1000px) {
-    .b_1_{margin-bottom: 50px; margin-left: 50%; transform: translateX(-50%); width: 360px;}
+    .b_1{width: 95vw;}
+    .b_1_{margin-bottom: 50px; margin-left: 50%; transform: translateX(-50%); width: 90%;}
     .b_1_line{height: 30px; width: 5px; background: linear-gradient(#FF65FF, #0070C0);}
     .b_1_img{border-radius: 50%; width: 70px;}
     .b_1_title{font-size: 1.6em;}

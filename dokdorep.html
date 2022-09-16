@@ -4,22 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./dokdogdb.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./dokdorep.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>독도애락ㅣ독도방탈출</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/독도icon.svg">
 </head>
 <body>
     <div class="ld"></div>
-    <h1>준비중</h1>
+    <div class="topbar">
+        <div class="topbar_group_1 mh" onclick="location.href='./main'">
+            <img class="topbar_titleimg" src="./img/독도icon.svg" width="100px">
+            <div class="topbar_title fwt">독도애락</div>
+        </div>
+    </div>
+    <div class="i_1">
+        <div class="i_1_img__">
+            <img class="i_1_img___" src="./img/roomescape.png">
+        </div>
+        <div class="i_1_img_">
+            <img class="i_1_img" src="./img/banner_rep.png">
+        </div>
+        <div class="i_1_text right">
+            <div class="i_1_title fmedium"><span>독</span><span>도</span> <span>방</span><span>탈</span><span>출</span></div>
+            <div class="i_1_subtitle fregular"><span>독</span><span>도</span><span>에</span><span>서</span> <span>탈</span><span>출</span><span>할</span><span>수</span> <span>있</span><span>을</span><span>것</span><span>인</span><span>가</span><span>!</span><span>!</span></div>
+        </div>
+    </div>
+    <div class="i_margin_top"></div>
+    <div class="p_text">
+        <div class="p_1 febold">영문도 모른채 독도에 갇혀버렸다?</div>
+        <div class="p_2_">
+            <div class="p_2">독도를 돌아다니면서 단서를 찾고, </div>
+            <div class="p_2__">독도를 탈출해라!!</div>
+        </div>
+    </div>
+    <div class="p_3 fmedium mh">독도탈출 시작하기</div>
     <script>
         const introText = document.querySelectorAll("span");
 
         window.onload = () => {
         let timer = 100;
         introText.forEach((item) => {
-            item.style.animation = `fade 800ms ${(timer += 300)}ms forwards`;
+            item.style.animation = `fade 600ms ${(timer += 100)}ms forwards`;
         });
         };
 

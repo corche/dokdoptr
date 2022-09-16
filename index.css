@@ -11,7 +11,7 @@ span{opacity: 0;}
 .i_1_img_{position: absolute; z-index: -999; width: 100vw; height: calc(100vw - 61vw); top: 0; overflow: hidden;}
 .i_1_img{width: 100vw; top: 0; animation: i1img 4s ease-in-out 0s normal 1 both;}
 .i_1_img__{position: absolute; z-index: -998; width: 100vw; top: 0; overflow: hidden;}
-.i_1_img___{width: 100vw; top: 0; animation: i1img 4s ease-in-out 0s normal 1 both; opacity: 0.5;}
+.i_1_img___{width: 100vw; top: 0; animation: i1img 4s ease-in-out 0s normal 1 both; opacity: 0.6;}
 .i_1_text{color: white; margin-top: calc(50% - 33vw); margin-right: 150px;}
 .i_1_title{font-size: 4em;}
 .i_1_subtitle{font-size: 2em; opacity: 0.9;}
